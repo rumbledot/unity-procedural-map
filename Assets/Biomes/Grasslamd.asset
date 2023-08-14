@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbd7dd9b2ac9034d93593e264a66e9d, type: 3}
+  m_Name: Grasslamd
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 2100000, guid: fae9c9565559f244f8b62fb0c1ef6b2f, type: 2}
+  objects:
+  - {fileID: 919132149155446097, guid: 5e513520fd059174e8f458733dd57e95, type: 3}
+  - {fileID: 919132149155446097, guid: c246c343c68d9a549b33b3d1528774a9, type: 3}
+  - {fileID: 919132149155446097, guid: 7db58e4bf9c7bdc4d8ff89a9f6b4543e, type: 3}
+  - {fileID: 919132149155446097, guid: 91583199830d15f4cb062fb62d21dba4, type: 3}
+  minHeight: 0.2
+  minMoisture: 0.5
+  minHeat: 0.3
