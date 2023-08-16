@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1897d413e0b3e54c963513f31a83ea0, type: 3}
-  m_Name: PlayerBaseMelee
+  m_Script: {fileID: 11500000, guid: 8f620a6e1300ec847b66734d2929ce1a, type: 3}
+  m_Name: Enemy Melee
   m_EditorClassIdentifier: 
-  cost: 0
-  minDamage: 2
-  maxDamage: 4
-  meleeEffect: 0
+  actionGroupName: Enemy Melee
+  actions:
+  - {fileID: 11400000, guid: 2d3dbe735519c3446933585aba1a4997, type: 2}

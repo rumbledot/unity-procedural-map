@@ -5,7 +5,7 @@ using Assets.Scripts;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public CharacterController controller;
+    public UnityEngine.CharacterController controller;
     public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;

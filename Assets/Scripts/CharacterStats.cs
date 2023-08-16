@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Character Stats", menuName = "Character/New Character Stats")]
 public class CharacterStats : ScriptableObject
 {
+    public string name;
     public int level;
     public int experience;
     public int health;
@@ -18,6 +19,6 @@ public class CharacterStats : ScriptableObject
     public int damage;
     public int baseArmor;
     public int inteligence;
-    public MagicSkill[] magicSkills;
-    public MeleeSkill[] meleeSkills;
+
+    public CharacterActionGroup[] characterActions;
 }

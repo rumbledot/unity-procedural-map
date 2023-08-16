@@ -40,4 +40,22 @@ namespace Assets.Scripts
         ArmorPiercing,
         Steal,
     }
+
+    public enum CombatStates
+    {
+        Start,
+        Waiting,
+        PlayerTurn,
+        EnemyTurn,
+        Win,
+        Lost,
+        End
+    }
+
+    public enum ActionTargetTypes 
+    {
+        Self,
+        Enemy,
+        AllEnemy
+    }
 }
